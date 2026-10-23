@@ -64,7 +64,6 @@ button {
   color: #0F172A;
 }
 
-/* LOGO NO MEIO DA TELA CENTRALIZADO */
 .gov-logo-container {
   position: absolute;
   left: 50%;
@@ -78,8 +77,8 @@ button {
 }
 
 .gov-logo-img {
-  width: 26px;
-  height: 26px;
+  width: 32px;
+  height: 32px;
   object-fit: contain;
   display: block;
 }
@@ -221,7 +220,6 @@ button {
   background-color: #0284C7;
 }
 
-/* Sidebar Bottom Promo Card */
 .gov-sidebar-bottom-card {
   background-color: #F8FAFC;
   border: 1px solid #E2E8F0;
@@ -266,7 +264,6 @@ button {
   gap: 6px;
 }
 
-/* MAIN CONTENT */
 .gov-main {
   flex: 1;
   padding: 20px 32px 48px 24px;
@@ -275,7 +272,6 @@ button {
   transition: padding 0.3s ease;
 }
 
-/* Page Header */
 .gov-main-header {
   display: flex;
   justify-content: space-between;
@@ -335,7 +331,6 @@ button {
   background-color: #072B47;
 }
 
-/* Filter & Status Row */
 .gov-filter-row {
   display: flex;
   align-items: center;
@@ -429,9 +424,7 @@ button {
   color: #64748B;
 }
 
-/* ==========================================================================
-   TOP 4 KPI CARDS
-   ========================================================================== */
+
 .gov-kpis-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -495,9 +488,7 @@ button {
   font-weight: 500;
 }
 
-/* ==========================================================================
-   CARDS COMMON STYLES
-   ========================================================================== */
+
 .gov-card {
   background-color: #FFFFFF;
   border: 1px solid #E5E7EB;
@@ -540,9 +531,7 @@ button {
   gap: 6px;
 }
 
-/* ==========================================================================
-   ROW 2: GASTOS DE IA + CENTRAL DE ALERTAS
-   ========================================================================== */
+
 .gov-row-2 {
   display: grid;
   grid-template-columns: 1.75fr 1.15fr;
@@ -550,7 +539,6 @@ button {
   margin-bottom: 20px;
 }
 
-/* Budget section inside chart card */
 .gov-budget-progress-section {
   margin-bottom: 22px;
 }
@@ -610,7 +598,6 @@ button {
   font-weight: 600;
 }
 
-/* Bar Chart */
 .gov-chart-container {
   display: flex;
   gap: 12px;
@@ -722,7 +709,6 @@ button {
   white-space: nowrap;
 }
 
-/* 3 Breakdown Columns */
 .gov-chart-breakdown {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -754,7 +740,6 @@ button {
   color: #94A3B8;
 }
 
-/* CENTRAL DE ALERTAS */
 .gov-alerts-list {
   display: flex;
   flex-direction: column;
@@ -838,9 +823,7 @@ button {
   gap: 6px;
 }
 
-/* ==========================================================================
-   ROW 3: SOLICITAÇÕES DE EXCLUSÃO + PRÓXIMAS EXPIRAÇÕES
-   ========================================================================== */
+
 .gov-row-3 {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -848,7 +831,6 @@ button {
   margin-bottom: 20px;
 }
 
-/* Tables */
 .gov-table-wrapper {
   overflow-x: auto;
 }
@@ -947,7 +929,6 @@ button {
   margin-top: 12px;
 }
 
-/* Próximas Expirações */
 .gov-expirations-list {
   display: flex;
   flex-direction: column;
@@ -1017,9 +998,7 @@ button {
   border-top: 1px solid #F1F5F9;
 }
 
-/* ==========================================================================
-   ROW 4: LOGS DE AUDITORIA
-   ========================================================================== */
+
 .gov-audit-card {
   margin-bottom: 24px;
 }
@@ -1126,9 +1105,7 @@ button {
   color: #94A3B8;
 }
 
-/* ==========================================================================
-   TOAST NOTIFICATION
-   ========================================================================== */
+
 .gov-toast {
   position: fixed;
   bottom: 24px;
@@ -1155,9 +1132,7 @@ button {
   }
 }
 
-/* ==========================================================================
-   MODAL: CONFIGURAR POLÍTICAS
-   ========================================================================== */
+
 .gov-modal-overlay {
   position: fixed;
   top: 0;
@@ -1297,9 +1272,7 @@ button {
   background-color: #072B47;
 }
 
-/* ==========================================================================
-   RESPONSIVE DESIGN (BREAKPOINTS)
-   ========================================================================== */
+
 @media (max-width: 1200px) {
   .gov-kpis-grid {
     grid-template-columns: repeat(2, 1fr);
@@ -1384,5 +1357,5 @@ button {
 
 .gov-logo-text{
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 15px;
+  font-size: 17px;
 }
